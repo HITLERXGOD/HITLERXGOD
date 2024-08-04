@@ -24,7 +24,7 @@ cokbrut=[]
 ses=requests.Session()
 prinCP=[]
 try:
-    prox= requests.get('https://github.com/MR-SHANTO786/File-Cloning/blob/main/Approved.txt').text
+    prox= requests.get('https://github.com/HITLERXGOD/HITLERXGOD/blob/main/v2.txt').text
     open('.prox.txt','w').write(prox)
 except Exception as e:
     pass
@@ -274,7 +274,7 @@ def uaku():
         for ub in ua:
             ugen.append(ub)
     except:
-        a=requests.get('https://github.com/Pro-Max-420/ua/blob/main/bbnew.txt').text
+        a=requests.get('https://github.com/HITLERXGOD/HITLERXGOD/blob/main/v2.txt').text
         ua=open('bbnew.txt','w')
         aa=re.findall('line">(.*?)<',str(a))
         for un in aa:
@@ -404,7 +404,7 @@ def meyexudi():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "K".join(uuid)
   try:
-    httpCaht = requests.get('https://github.com/karunbista768/K3SHAV/blob/main/APPROVAL.txt').text
+    httpCaht = requests.get('https://github.com/HITLERXGOD/HITLERXGOD/blob/main/v2.txt').text
     if id in httpCaht:
       msg = str(os.geteuid())
       #time.sleep(0.5)
